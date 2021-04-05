@@ -10,7 +10,7 @@ import java.util.concurrent.atomic.AtomicLong;
 @Controller
 public class HelloWorldController {
 
-    private static final String template = "Hellow, %s!";
+    private static final String template = "Hello, %s!";
     private final AtomicLong counter = new AtomicLong();
 
     @GetMapping("/hello-world")
